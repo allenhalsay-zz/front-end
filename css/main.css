@@ -1,0 +1,35 @@
+main{
+    box-sizing: border-box;
+}
+
+.main-section img{
+    margin: 1vh auto;
+}
+
+/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+.main-article h1{
+    font-size: calc(5px + (30 - 5) * ((100vw - 375px) / (1365 - 375)));
+    text-align: left;
+    line-height: 5vh;
+    color: rgba(3, 69, 137, 1);
+}
+
+.main-article p{
+    font-size: calc(5px + (15 - 5) * ((100vw - 375px) / (1365 - 375)));
+    text-align: left;
+}
+
+
+.main-article p{
+    color: black;
+    margin: 1.6vh 0;
+    line-height: 2.4vh;
+    height: auto;
+}
+
+.main-article .subtitle{
+    margin: 1.6vh 0;
+    line-height: 2.4vh;
+    height: auto;
+    color: rgba(26, 120, 214, 1);
+}

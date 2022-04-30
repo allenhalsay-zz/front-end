@@ -1,0 +1,62 @@
+@media(max-width: 768px){
+    .section-nav nav{
+        width: 100vw;
+        position: relative;
+    }
+
+    .section-nav ul{
+        width: 85vw;
+        padding: 0;
+        height: 2vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .section-nav li{
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .section-nav a{
+        font-size: 20px;
+    }
+
+    .section-nav a:hover{
+        background-color: rgba(3, 69, 137, 1);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .section-aside .span-h2, .section-aside .background-span{
+        font-size: 9px;
+    }
+
+    .main-article h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .main-article .subtitle{
+        font-size: 15px;
+    }
+
+    .main-article p{
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    aside > a > div > h2{
+        font-size: 15px;
+    }
+
+    aside > a > div > h3{
+        font-size: 12px;
+    }
+
+    aside > a > div > p{
+        font-size: 9px;
+    }
+
+}

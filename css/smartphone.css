@@ -1,0 +1,80 @@
+@media(max-width: 320px){
+
+    .div-header p{
+        font-size: calc(20px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    .section-nav nav{
+        width: 100vw;
+        position: relative;
+    }
+
+    .section-nav ul{
+        width: 85vw;
+        padding: 0;
+        height: 2vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .section-nav li{
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-nav a{
+        font-size: calc(20px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    .section-nav a:hover{
+        background-color: rgba(3, 69, 137, 1);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .section-aside{
+        width: 100vw;
+    }
+
+    .section-aside .span-h2, .section-aside .background-span{
+        font-size: calc(15px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    .main-article h1{
+        font-size: calc(20px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+        line-height: 20px;
+    }
+
+    .main-article .subtitle{
+        font-size: calc(15px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    .main-article p{
+        font-size: calc(12px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+        line-height: 12px;
+    }
+
+    aside{
+        width: 100vw;
+    }
+
+    aside > a > div > h2{
+        font-size: calc(20px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    aside > a > div > h3{
+        font-size: calc(15px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+    aside > a > div > p{
+        font-size: calc(12px + (12 - 10) * ((100vw - 320px) / (1365 - 320)));
+    }
+
+
+}

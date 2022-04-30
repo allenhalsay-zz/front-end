@@ -1,0 +1,115 @@
+html{
+	font-family: sans-serif;
+	background-color: #6937CC;
+	color: #B691FF;
+	font-size: 62,5%;
+	width: 100%;
+}
+
+body{
+	margin: 0 auto;
+	font-size: 1.2rem;
+	width: 25%;
+	padding: 10px;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+}
+
+h2{
+	margin: 10px 0;
+}
+
+.contato{
+	text-decoration: underline;
+}
+
+section{
+	width: 100%;
+}
+
+nav{
+	text-align: center;
+	background-color: #412280;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+	font-size: 1.3rem;
+}
+
+article h1{
+	text-align: center;
+}
+
+form{
+	background-color: rgb(65, 34, 129, 0.2);
+	padding: 10px 0;
+}
+
+.inputdata{
+	width: 98.5%;
+	height: 2vw;
+	margin: 10px 0;
+}
+
+select{
+	font-size: 1.1rem;
+	color: #412280;
+	width: 100%;
+	height: 2vw;
+}
+
+textarea{
+	width: 98.5%;
+	height: 5vw;
+}
+
+[placeholder]{
+	font-size: 1.1rem;
+	font-family: sans-serif;
+}
+
+div label{
+	margin-bottom: 20px;
+}
+
+.inputlanguage, textarea{
+	margin-top: 10px;
+}
+
+.optionselect{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+
+.bottom{
+	margin: 0 auto;
+	width: 25%;
+}
+
+.bottom input{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	margin: 10px 0 5px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+}
